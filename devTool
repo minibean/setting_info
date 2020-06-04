@@ -1,0 +1,54 @@
+<h3>환경셋팅</h3>
+<p>
+  <ol>
+    <li><strong>Editor</strong>
+      <ul>
+        <li><a href="setting\00.editor\acroedit0.9.26.116.exe" target="_blank">AcroEdit</a></li>
+        <li><a href="setting\00.editor\AtomSetup-x64.exe" target="_blank">Atom</a></li>
+      </ul>
+    </li>
+    <li><strong>JDK</strong>
+      <ul>
+        <li><a href="setting\01.jdk\jdk-7u45-windows-x64.exe" target="_blank">jdk-7</a></li>
+        <li><a href="setting\01.jdk\jdk-8u25-windows-x64.exe" target="_blank">jdk-8</a></li>
+      </ul>
+    </li>
+    <li><strong>WAS</strong>
+      <ul>
+        <li>apache-tomcat7</li>
+        <li><a href="setting\02.WAS\apache-tomcat-8.0.15-windows-x64.zip" target="_blank">apache-tomcat8</a></li>
+      </ul>
+    </li>
+    <li><strong>Web Server</strong>
+      <ul>
+        <li><a href="setting\03.WebServer\bitnami-wampstack-7.4.6-1-windows-x64-installer.exe" target="_blank">bitnami</a></li>
+      </ul>
+    </li>
+    <li><strong>Eclipse</strong>
+      <ul>
+        <li><a href="setting\04.eclipse\eclipse-neon.zip" target="_blank">eclipse-neon</a></li>
+      </ul>
+    </li>
+    <li><strong>Oracle</strong>
+      <ul>
+        <li><a href="setting\05.oracle\win64_11gR2_database_1of2.zip" target="_blank">win64_11g Database(1/2)</a></li>
+        <li><a href="setting\05.oracle\win64_11gR2_database_2of2.zip" target="_blank">win64_11g Database(2/2)</a></li>
+      </ul>
+    </li>
+    <li><strong>Oracle Tool</strong>
+      <ul>
+        <li><a href="setting\06.oracleTool\Toad for Oracle.zip" target="_blank">Toad 13.1</a></li>
+      </ul>
+    </li>
+    <li><strong>Office</strong>
+      <ul>
+        <li><a href="setting\07.office\Office2013_64bit.zip">Office 2013</a></li>
+      </ul>
+    </li>
+    <li><strong>압축</strong>
+      <ul>
+        <li><a href="setting\08.etc\BANDIZIP-SETUP-ONLINE.EXE">반디집</a></li>
+      </ul>
+    </li>
+  </ol>
+</p>

@@ -1,0 +1,55 @@
+body{
+  margin : 0;
+}
+a {
+  text-decoration:none;
+  color : black;
+}
+h1{
+  margin: 0;
+  font-size: 70px;
+}
+h2{
+  margin: 0;
+}
+ol{
+  margin : 0;
+}
+p{
+  margin : 0;
+}
+table{
+  border-collapse: collapse;
+}
+table, th, td{
+  border: 1px solid black;
+}
+
+#top{
+  text-align : center;
+  width: 1920px;
+  margin : 0;
+  border-bottom : 1px solid black;
+}
+
+#wrap{
+  margin : 0;
+  width: 1920px;
+  display : flex;  //이걸 사용하니깐 2div가 1열로 됨
+}
+#left{
+  margin : 0;
+  width: 250px;
+  border-right : 1px solid black;
+}
+
+#right{
+  margin : 0;
+  width: 1000px;
+//  padding-left: 20px;
+}
+
+#pjtTbl{
+  margin: 20px;
+  width : 1600px;
+}

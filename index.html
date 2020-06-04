@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+  <title>Ryu Kyoungmin</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="event.js"></script>
+</head>
+
+<body>
+  <div id="top">
+    <h1>
+      <a href="#!index" onclick="fetchPage('index');">류경민</a>
+      <!--<input type="button" id="indexBtn" value="night" onclick="BodyColorChange(this);">-->
+    </h1>
+  </div>
+
+
+  <div id="wrap">
+    <div id="left">
+      <ol id="nav"></ol>
+    </div>
+
+    <div id="right">
+      <article></article>
+    </div>
+  </div>
+
+  <script>
+    var navList =
+    {
+      key : ['devTool', 'pjtMnt', 'etc'],
+      val : ['개발 Setting', '프로젝트 관리', '기타']
+    }
+    // var navList;
+    // fetch('list').then(function(response){
+    //   response.text().then(function(text){
+    //     console.log(document.querySelector('script').innerHTML);
+    //     document.querySelector('script').innerHTML = text;
+    //     console.log(text);
+    //   })
+    // });
+
+    function fetchPage(name)
+    {
+      fetch(name).then(function(response){
+        response.text().then(function(text){
+          document.querySelector('article').innerHTML = text;
+        })
+      });
+
+      nav(name);
+    }
+
+    if(location.hash)
+    {
+      fetchPage(location.hash.substr(2));
+    }
+    else
+    {
+      fetchPage('index');
+    }
+
+
+
+    function nav(name)
+    {
+        var i = 0;
+        var key = "";
+        var val = "";
+        var tags = "";
+
+        while(i < navList.key.length)
+        {
+          key = navList.key[i];
+          val = navList.val[i];
+
+          var tag = "";
+
+          if(name == key)
+          {
+            tag = '<li><a href="#!'+key+'" onclick=fetchPage(\''+key+'\'); style=color:red>'+val+'</a></li>';
+          }
+          else
+          {
+            if($("#indexBtn").attr('value') == 'day')
+            {
+              tag = '<li><a href="#!'+key+'" onclick=fetchPage(\''+key+'\'); style=color:white>'+val+'</a></li>';
+            }
+            else
+            {
+              tag = '<li><a href="#!'+key+'" onclick=fetchPage(\''+key+'\');>'+val+'</a></li>';
+            }
+
+          }
+
+          tags = tags + tag;
+
+          i++;
+        }
+        document.querySelector('#nav').innerHTML = tags;
+    }
+
+
+  </script>
+
+
+</body>
+</html>

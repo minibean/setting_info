@@ -1,0 +1,113 @@
+<h3>프로젝트 관리</h3>
+<p>
+  <table id="pjtTbl">
+    <tr>
+      <th>No.</th>
+      <th>업체</th>
+      <th>프로젝트명</th>
+      <th>시작일</th>
+      <th>종료일</th>
+      <th>DB/UI</th>
+      <th>기타</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>삼성전자</td>
+      <td>MEM SCM 노후 System Conversion</td>
+      <td>2015-10-05</td>
+      <td>2016-04-30</td>
+      <td>DB</td>
+      <td>뭣도 몰랐던 시절</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>삼성전자</td>
+      <td>MEM事 중장기 PKG 생산계획 시스템化</td>
+      <td>2016-05-16</td>
+      <td>2016-10-15</td>
+      <td>UI</td>
+      <td>웹엑셀, webLogic 사용</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>삼성전자</td>
+      <td>메모리속보 정합성 개선</td>
+      <td>2016-12-05</td>
+      <td>2017-07-04</td>
+      <td>DB,UI</td>
+      <td>웹엑셀, webLogic 사용</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>삼성전자</td>
+      <td>메모리 경영계획 수불 시스템 혁신</td>
+      <td>2017-07-05</td>
+      <td>2017-08-11</td>
+      <td>DB,UI</td>
+      <td>웹엑셀, webLogic 사용</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>삼성전자</td>
+      <td>메모리 사업부 차세대 속보 구축</td>
+      <td>2017-07-05</td>
+      <td>2018-05-07</td>
+      <td>DB</td>
+      <td>긴급반영 구축(긴급적으로 DMD를 높여야할 때 사용되지 않은 재공,재고를 써서 생산되게끔 로직 구현)</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>삼성전자</td>
+      <td>DS 속보시스템 재구축</td>
+      <td>2018-05-08</td>
+      <td>2019-01-31</td>
+      <td>DB/UI</td>
+      <td>cello 전환 / UI : 웹엑셀, 웹로직 사용</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>SK 하이닉스</td>
+      <td>SKHY/G-SCM 19년도(IV)</td>
+      <td>2019-03-01</td>
+      <td>2019-04-30</td>
+      <td>UI</td>
+      <td>G-SCM MP SI / NEXCORE, NEXACRO 사용</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>SK 하이닉스</td>
+      <td>SKHY/19년 G-SCM 사업</td>
+      <td>2019-05-01</td>
+      <td>2019-06-30</td>
+      <td>UI</td>
+      <td>G-SCM MP SI / NEXCORE, NEXACRO 사용</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>SK 하이닉스</td>
+      <td>SKHY/19년 전사기준정보개선실행_Legacy 시스템 변경(경영정보)</td>
+      <td>2019-07-01</td>
+      <td>2019-08-31</td>
+      <td>UI</td>
+      <td>기준정보 변경 / NEXCORE, NEXACRO 사용</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>SK 하이닉스</td>
+      <td>SKHY/19년 전사 기준정보 과제 실행(IE Legacy 개선 2단계)</td>
+      <td>2019-09-01</td>
+      <td>2019-10-31</td>
+      <td>UI</td>
+      <td>기준정보 변경 / NEXCORE, NEXACRO 사용</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>SK 하이닉스</td>
+      <td>SKHY/19년 전사 기준정보 과제 실행(IE Legacy 개선 3단계)</td>
+      <td>2019-11-01</td>
+      <td>2019-12-31</td>
+      <td>UI</td>
+      <td>기준정보 변경 / NEXCORE, NEXACRO 사용</td>
+    </tr>
+  </table>
+</p>

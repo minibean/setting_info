@@ -1,0 +1,5 @@
+navList =
+{
+  key : ['devTool', 'pjtMnt', 'etc'],
+  val : ['개발 Setting', '프로젝트 관리', '기타']
+}
